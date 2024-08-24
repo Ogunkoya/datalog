@@ -60,7 +60,7 @@ class AdcConfig(BaseConfig):
 
         # library paths
         self['picolog'] = {
-            'lib_path_adc24': '/opt/picoscope/lib/libpicohrdl.so'
+            'lib_path_adc24': "C:\\Program Files\\Pico Technology\\SDK\\lib\\picohrdl.dll"
         }
 
         self.load_config_file()
